@@ -8,10 +8,10 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Work/>
+          <Portfolio />
         </Route>
         <Route path="/admin">
-          <Portfolio/>
+          <Work />
         </Route>
       </Switch>
     </Router>
