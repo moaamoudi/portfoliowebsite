@@ -1,12 +1,16 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Work from "./Components/Work";
+import Portfolio from "./Components/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Work in Progress...</h1>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Work} />
+        <Route path="/admin" component={Portfolio} />
+      </Switch>
+    </Router>
   );
 }
 
