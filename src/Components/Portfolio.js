@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>TEST</h1>
+        <h1>PORTFOLIO</h1>
       </header>
     </div>
   );
