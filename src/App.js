@@ -7,8 +7,12 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Work} />
-        <Route path="/admin" component={Portfolio} />
+        <Route exact path="/">
+          <Work/>
+        </Route>
+        <Route path="/admin">
+          <Portfolio/>
+        </Route>
       </Switch>
     </Router>
   );
