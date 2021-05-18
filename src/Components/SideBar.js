@@ -4,7 +4,7 @@ import {
   Menu,
   MenuItem,
   // SubMenu,
-  SidebarHeader,
+  // SidebarHeader,
   SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";

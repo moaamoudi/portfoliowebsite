@@ -1,7 +1,7 @@
 import * as reactBootstrap from "react-bootstrap";
 import React from "react";
 // import { Dropdown } from "semantic-ui-react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import "./NavBar.css";
 import "./SideBar.scss";
 
@@ -11,9 +11,9 @@ function NavBar(props) {
   // image,
   // handleToggleSidebar,
 
-  const handleCollapsedChange = props.handleCollapsedChange;
+  // const handleCollapsedChange = props.handleCollapsedChange;
 
-  const history = useHistory();
+  // const history = useHistory();
 
   return (
     <reactBootstrap.Navbar
